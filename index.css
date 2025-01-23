@@ -1,0 +1,30 @@
+
+@import '/modules/imports.css';
+
+:root{ 
+  /* Colors */
+  --BK1: #202225;
+  --BK2: #292b2f;
+  --BK3: #2f3136;
+  --WT1: #ffffff;
+
+  /* Fonts */
+  --TITLE: 'Space Mono', Verdana, Helvetica, Arial;
+  --LINK: Comfforta, Verdana, Helvetica, Arial;
+  --FANCY: 'Mrs Saint Delafield', Verdana, Helvetica, Arial;
+  --NORMAL: Comfforta, Verdana, Helvetica, Arial;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  background-color: var(--BK1);
+  color: var(--WT1);
+  margin: 0;
+}
+hr{
+  margin: 0;
+}
+

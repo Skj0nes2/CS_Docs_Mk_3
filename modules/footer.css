@@ -1,0 +1,12 @@
+footer p b{
+  font-family: var(--FANCY);
+}
+footer p{
+  font-family: var(--NORMAL);
+}
+footer{
+  margin-left: 28px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
